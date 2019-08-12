@@ -1,0 +1,12 @@
+{
+  "id": "miniFloraRespawnFix",
+  "name": "Fix flora respawn patcher",
+  "author": "mini",
+  "version": "1.0.0",
+  "released": "8/1/2019",
+  "updated": "8/1/2019",
+  "description": "Patcher for flora respwaner based upon fox's and bluedanieru's work",
+  "requires": ["unifiedPatchingFramework"],
+  "moduleLoader": "UPF",
+  "canHotLoad": true
+}
