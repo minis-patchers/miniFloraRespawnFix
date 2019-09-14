@@ -15,8 +15,8 @@ let procBlock = function(sig) {
     },
     patch: function (record, helpers, settings, locals) {
       ensureVMAD(record)
-      if(!xelib.HasScript(record, "FloraRespawnScript")) {
-        xelib.AddScript(record, "FloraRespawnScript");
+      if(!xelib.HasScript(record, "FloraFix")) {
+        xelib.AddScript(record, "FloraFix");
         helpers.logMessage("Patched: "+sig + " : "+ xelib.FullName(record));
       }
     }
